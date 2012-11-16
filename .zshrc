@@ -26,3 +26,6 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 # Stop autocorrect
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
+
+# rbenv
+eval "$(rbenv init -)"

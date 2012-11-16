@@ -12,7 +12,7 @@
      *   Windows   -> 'coffee.cmd'
      *   Linux/OSX -> 'coffee'
      */
-    "coffee_executable": ""
+    "coffee_executable": "coffee"
 
 
     /**
