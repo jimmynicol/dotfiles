@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"CoffeeCompile",
+		"CoffeeScript",
 		"Git",
 		"Package Control",
 		"RSpec",
