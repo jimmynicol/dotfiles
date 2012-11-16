@@ -1,0 +1,12 @@
+{
+	"auto_upgrade_last_run": 1353042583,
+	"installed_packages":
+	[
+		"CoffeeCompile",
+		"Git",
+		"Package Control",
+		"RSpec",
+		"Sass",
+		"Theme - Soda"
+	]
+}
