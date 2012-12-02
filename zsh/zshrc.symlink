@@ -29,3 +29,6 @@ unsetopt correct_all
 
 # rbenv
 eval "$(rbenv init -)"
+
+alias d='stat -f "%N has an octal of: %A" '
+alias ll='ls -lah'

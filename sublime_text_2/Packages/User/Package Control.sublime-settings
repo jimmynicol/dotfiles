@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1353047021,
+	"auto_upgrade_last_run": 1353729460,
 	"installed_packages":
 	[
 		"CoffeeCompile",
@@ -8,6 +8,7 @@
 		"Package Control",
 		"RSpec",
 		"Sass",
+		"SublimeLinter",
 		"Theme - Soda"
 	]
 }
