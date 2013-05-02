@@ -1,13 +1,17 @@
 {
-	"auto_upgrade_last_run": 1353729460,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Backbone.js",
 		"CoffeeCompile",
 		"CoffeeScript",
 		"Git",
+		"JS2Coffee",
 		"Package Control",
 		"RSpec",
 		"Sass",
+		"Stylus",
+		"Sublime-HTMLPrettify",
 		"SublimeLinter",
 		"Theme - Soda"
 	]
