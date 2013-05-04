@@ -23,16 +23,20 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
+# For postgres
+export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+
 # Stop autocorrect
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # rbenv
-# eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
+# NVM
+[[ -s "$HOME/.nvm/nvm.sh" ]] && . "$HOME/.nvm/nvm.sh"
+
+# Aliases
 alias d='stat -f "%N has an octal of: %A" '
 alias ll='ls -lah'
 alias xcode="open *.xcodeproj"
-
-# this loads NVM
-[[ -s "$HOME/.nvm/nvm.sh" ]] && . "$HOME/.nvm/nvm.sh"
